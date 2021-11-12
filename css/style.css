@@ -767,8 +767,17 @@ body {
 .article {
   margin: 50px 0;
 }
-.article-inner {
-  overflow: hidden;
+.tocfixed {
+  float: right;
+  width: 500px;
+  height: 1000px;
+  margin: 0;
+}
+.tocsticky {
+  position: -webkit-sticky;
+  position: sticky;
+  margin-bottom: 30px;
+  top: 100px;
 }
 .article-meta {
   zoom: 1;

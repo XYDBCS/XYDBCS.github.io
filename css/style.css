@@ -492,7 +492,7 @@ body {
   position: absolute;
   top: 35%;
   left: 0;
-  margin-top: -20px;
+  margin-top: -32px;
 }
 #header-title #title {
   color: #555;
@@ -501,8 +501,8 @@ body {
   border-radius: 50%;
   -webkit-box-shadow: 0 0 1px #fff;
   box-shadow: 0 0 1px #fff;
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
 }
 #header-title a {
   color: #333;
@@ -523,7 +523,7 @@ body {
   background-color: #333;
 }
 #header-title .my-socials li .weibo {
-  background-color: #e20021;
+  background-colour: #e20021;
 }
 #header-title .my-socials li .email {
   background-color: #3369e8;
@@ -653,8 +653,8 @@ body {
   border-radius: 50%;
   -webkit-box-shadow: 0 0 1px #fff;
   box-shadow: 0 0 1px #fff;
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
 }
 #sub-nav {
   position: absolute;
@@ -802,7 +802,7 @@ body {
 }
 .article-title {
   text-decoration: none;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bold;
   color: #555;
   line-height: 1.1em;

@@ -765,17 +765,13 @@ body {
 .article {
   margin: 50px 0;
 }
-@media screen and (min-width: 769px) {
-  .article-toc {
-    display: block;
-  }
-}
 .tocfixed {
   float: right;
-  left: 10px;
+  left: 500px;
   width: 256px;
   height: 1024px;
   margin: 0;
+  display: none;
 }
 @media screen and (min-width: 769px) {
   .tocfixed {

@@ -767,15 +767,22 @@ body {
 }
 .tocfixed {
   float: right;
-  width: 50px;
-  height: 1000px;
+  left: 10px;
+  width: 256px;
+  height: 1024px;
   margin: 0;
 }
 .tocsticky {
   position: -webkit-sticky;
   position: sticky;
   margin-bottom: 30px;
-  top: 100px;
+  Margin-left: -16px;
+  top: 110px;
+}
+@media screen and (min-width: 769px) {
+  .tocsticky {
+    display: block;
+  }
 }
 .article-meta {
   zoom: 1;

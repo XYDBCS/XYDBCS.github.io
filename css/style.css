@@ -777,12 +777,22 @@ body {
   height: 1024px;
   margin: 0;
 }
+@media screen and (min-width: 769px) {
+  .tocfixed {
+    display: block;
+  }
+}
 .tocsticky {
   position: -webkit-sticky;
   position: sticky;
   margin-bottom: 30px;
   Margin-left: -16px;
   top: 110px;
+}
+@media screen {
+  .tocsticky {
+    padding: 0 20px;
+  }
 }
 .article-meta {
   zoom: 1;

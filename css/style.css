@@ -772,6 +772,11 @@ body {
   height: 1024px;
   margin: 0;
 }
+@media screen and (min-width: 769px) {
+  .tocfixed {
+    display: block;
+  }
+}
 .tocsticky {
   position: -webkit-sticky;
   position: sticky;

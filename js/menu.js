@@ -4,7 +4,7 @@ var mainButton 	= [
 	{'bg':'../css/menu/images/bg-2x.png','css':'','cover':'../css/menu/images/icon-2x.png','html':'<span class="cover"></span>'},
 	{'bg':'','css':'','cover':'','html':'','angle':-405,'speed':200}
 ];
-var Radius 		= 100;		//小图出来的半径
+var Radius 		= 200;		//小图出来的半径
 var Offset 		= 40;		//小图出来后的偏移量
 var Path 		= 2;		//出现方式，1：左上，2:左下，3：右上，4：右下
 var OutSpeed 	= 80;		//小图出现的速度

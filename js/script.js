@@ -14,7 +14,7 @@
       callback && callback();
     }, searchAnimDuration);
   };
-
+  
   $('#nav-search-btn').on('click', function(){
     if (isSearchAnim) return;
 
@@ -30,7 +30,22 @@
     $searchWrap.removeClass('on');
     stopSearchAnim();
   });
-
+  
+  //darkmode
+  $('#nav-dark-btn').on('click', function switchDarkMode() {
+    if ($('body').hasClass('dark')) {
+      $("#dark").html("day");
+      document.body.classList.remove('dark');
+      localStorage.setItem('noDark', '1');
+      localStorage.setItem('dark', '0');
+    } else {
+      $("#dark").html("night"); 
+      document.body.classList.add('dark');
+      localStorage.setItem('dark', '1');
+      localStorage.setItem('noDark', '0');
+    }
+  });
+  
   // Share
   $('body').on('click', function(){
     $('.article-share-box.on').removeClass('on');

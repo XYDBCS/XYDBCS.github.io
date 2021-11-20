@@ -21,11 +21,11 @@
     startSearchAnim();
     $searchWrap.addClass('on');
     stopSearchAnim(function(){
-      $('.search-form-input').focus();
+      $('.st-default-search-input').focus();
     });
   });
 
-  $('.search-form-input').on('blur', function(){
+  $('.st-default-search-input').on('blur', function(){
     startSearchAnim();
     $searchWrap.removeClass('on');
     stopSearchAnim();

@@ -676,14 +676,16 @@ body {
   content: "\f002";
 }
 #nav-dark-btn:before {
-  content: "\f186";
+  content: "\f205";
+  width: 500px;
+  height: 500px;
 }
 #search-form-wrap {
   position: absolute;
   top: 15px;
   width: 150px;
   height: 30px;
-  right: -150px;
+  right: -250px;
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
@@ -697,36 +699,13 @@ body {
   opacity: 0.9;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
   filter: alpha(opacity=90);
-  right: 1%;
+  right: 0%;
 }
 @media screen and (max-width: 479px) {
   #search-form-wrap {
     width: 100%;
     right: -100%;
   }
-}
-.search-form {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: #fff;
-  padding: 5px 15px;
-  border-radius: 15px;
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-}
-.search-form-input {
-  border: none;
-  background: none;
-  color: #555;
-  width: 100%;
-  font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  outline: none;
-}
-.search-form-input::-webkit-search-results-decoration,
-.search-form-input::-webkit-search-cancel-button {
-  -webkit-appearance: none;
 }
 .search-form-submit {
   position: absolute;
@@ -742,6 +721,12 @@ body {
 .search-form-submit:hover,
 .search-form-submit:focus {
   color: #777;
+}
+.st-default-search-input,
+.st-ui-search-input {
+  display: block;
+  background: #730;
+  width: 100px;
 }
 .site-nav {
   background: none repeat scroll 0 0 #555;
@@ -1649,6 +1634,7 @@ pre .javascript .function {
 /* header */
 /* body */
 /* Figure brightness */
+/* search results */
 }
 .dark #header-inner {
   background: none repeat scroll 0 0 #171717;
@@ -1684,7 +1670,7 @@ pre .javascript .function {
   border-right: 1px solid #292a2d;
 }
 .dark #nav-dark-btn:before {
-  content: "\f185";
+  content: "\f204";
 }
 .dark .article-title {
   color: #a9a9b3;
@@ -1724,4 +1710,16 @@ pre .javascript .function {
 }
 .dark #footer-info {
   background: #171717;
+}
+.dark .st-ui-injected-overlay-container {
+  background-color: #202124;
+}
+.dark .st-ui-injected-overlay-container .st-ui-footer {
+  background: #171717;
+}
+.dark .st-ui-injected-overlay-container .st-ui-header {
+  background: #e5e5e5;
+}
+.dark .st-ui-injected-overlay-container .st-ui-content .st-ui-fallback {
+  background: #202124;
 }

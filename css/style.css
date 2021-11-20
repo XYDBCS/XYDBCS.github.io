@@ -722,12 +722,6 @@ body {
 .search-form-submit:focus {
   color: #777;
 }
-.st-default-search-input,
-.st-ui-search-input {
-  display: block;
-  background: #730;
-  width: 100px;
-}
 .site-nav {
   background: none repeat scroll 0 0 #555;
   border-bottom: 1px solid #eee;

@@ -81,12 +81,19 @@
       <a id="nav-dark-btn" class="nav-icon" title="Dark/Light"></a>
     </nav>
 
+    <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/local.search.js"></script>
     <div id="search-form-wrap">
       <form class="search-form">
-        <input type="text" class="st-default-search-input" placeholder="Search">
-        <input type="submit" value="" class="search-form-submit">
+        <input type="text" id="search-input" class="st-search-input" placeholder="Search">
       </form>
+      <div id="search-result" class="local-search-result-cls"></div>
     </div>
+
+    <script type="text/javascript">
+      var path = "/search.xml";
+      searchFunc(path, 'search-input', 'search-result');
+    </script>
   </div>
 
   <div class="site-nav" style="display: none;">
@@ -173,7 +180,12 @@
 
 <script src="/js/darkmode.js"></script>
 
-<script type="text/javascript" src="/js/search.js"></script>
+
+<script src="/js/search.js"></script>
+
+
+<script src="/js/local.search.js"></script>
+
 
 
 <script src="/js/script.js"></script>

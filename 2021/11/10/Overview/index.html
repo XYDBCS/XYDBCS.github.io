@@ -5,15 +5,15 @@
   
   <title>Overview | Xinyue Ding</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Biographyplaceholderplaceholderplaceholder Research&#x2F;Education Experienceplaceholderplaceholderplaceholder Recent Publicationsplaceholderplaceholderplaceholder&amp;emsp;More Newsplaceholderplaceholderplace">
+  <meta name="description" content="Biographyplaceholderplaceholderplaceholder Research&#x2F;Education Experienceplaceholderplaceholderplaceholder Recent PublicationsYulian Ding, Xiujuan Lei, Bo Liao, and Fang-Xiang Wu. Biomarker identificat">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Overview">
 <meta property="og:url" content="http://xydbcs.github.io/2021/11/10/Overview/index.html">
 <meta property="og:site_name" content="Xinyue Ding">
-<meta property="og:description" content="Biographyplaceholderplaceholderplaceholder Research&#x2F;Education Experienceplaceholderplaceholderplaceholder Recent Publicationsplaceholderplaceholderplaceholder&amp;emsp;More Newsplaceholderplaceholderplace">
+<meta property="og:description" content="Biographyplaceholderplaceholderplaceholder Research&#x2F;Education Experienceplaceholderplaceholderplaceholder Recent PublicationsYulian Ding, Xiujuan Lei, Bo Liao, and Fang-Xiang Wu. Biomarker identificat">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-11-10T13:54:15.158Z">
-<meta property="article:modified_time" content="2021-11-20T08:53:25.022Z">
+<meta property="article:modified_time" content="2021-12-04T16:17:52.857Z">
 <meta property="article:author" content="Xin Y. Ding">
 <meta name="twitter:card" content="summary">
   
@@ -83,12 +83,19 @@
       <a id="nav-dark-btn" class="nav-icon" title="Dark/Light"></a>
     </nav>
 
+    <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/local.search.js"></script>
     <div id="search-form-wrap">
       <form class="search-form">
-        <input type="text" class="st-default-search-input" placeholder="Search">
-        <input type="submit" value="" class="search-form-submit">
+        <input type="text" id="search-input" class="st-search-input" placeholder="Search">
       </form>
+      <div id="search-result" class="local-search-result-cls"></div>
     </div>
+
+    <script type="text/javascript">
+      var path = "/search.xml";
+      searchFunc(path, 'search-input', 'search-result');
+    </script>
   </div>
 
   <div class="site-nav" style="display: none;">
@@ -136,7 +143,14 @@
   <!--Table of Contents end-->
         <h3 id="Biography"><a href="#Biography" class="headerlink" title="Biography"></a>Biography</h3><p>placeholder<br>placeholder<br>placeholder</p>
 <h3 id="Research-Education-Experience"><a href="#Research-Education-Experience" class="headerlink" title="Research/Education Experience"></a>Research/Education Experience</h3><p>placeholder<br>placeholder<br>placeholder</p>
-<h3 id="Recent-Publications"><a href="#Recent-Publications" class="headerlink" title="Recent Publications"></a>Recent Publications</h3><p>placeholder<br>placeholder<br>placeholder<br>&emsp;<a href="/Publications">More</a></p>
+<h3 id="Recent-Publications"><a href="#Recent-Publications" class="headerlink" title="Recent Publications"></a>Recent Publications</h3><p>Yulian Ding, Xiujuan Lei, Bo Liao, and Fang-Xiang Wu. Biomarker identification via a factorization machine-based neural network with binary pairwise encoding. Bioinformatics, 2019. [accepted]</p>
+<p>Yulian Ding, Xiujuan Lei, Bo Liao, and Fang-Xiang Wu. MLRDFM: a multi-view Laplacian regularized DeepFM model for predicting miRNA-disease associations. Briefings in bioinformatics, 2021. [accepted]</p>
+<p>Ding Y, Tian LP, Lei X, Liao B, Wu FX. Variational graph auto-encoders for miRNA-disease association prediction. Methods. 2021 Aug 1;192:25-34.    <a href="https://www.sciencedirect.com/science/article/abs/pii/S104620232030164X">[Link]</a></p>
+<p>Ding Y, Lei X, Liao B, Wu F. Predicting miRNA-Disease Associations Based on Multi-View Variational Graph Auto-Encoder with Matrix Factorization. IEEE Journal of Biomedical and Health Informatics. 2021 Jun 10.        <a href="https://ieeexplore.ieee.org/abstract/document/9451570/">[Link]</a></p>
+<p>Ding Y, Lei X, Liao B, Wu FX. Machine learning approaches for predicting biomolecule-disease associations. Briefings in Functional Genomics. 2021 Feb 8.    <a href="https://academic.oup.com/bfg/article-abstract/20/4/273/6130383?redirectedFrom=fulltext">[Link]</a></p>
+<p>Ding Y, Chen B, Lei X, Liao B, Wu FX. Predicting novel CircRNA-disease associations based on random walk and logistic regression model. Computational Biology and Chemistry. 2020 Aug 1;87:107287.    <a href="https://www.sciencedirect.com/science/article/abs/pii/S147692712030116X">[Link]</a></p>
+<p>Ding Y, Wang F, Lei X, Liao B, Wu FX. Deep belief network–based matrix factorization model for MicroRNA-disease associations prediction. Evolutionary Bioinformatics. 2020 May;16:1176934320919707.        <a href="https://journals.sagepub.com/doi/full/10.1177/1176934320919707">[Link]</a></p>
+<p>&emsp;<a href="/Publications">More</a></p>
 <h3 id="News"><a href="#News" class="headerlink" title="News"></a>News</h3><p>placeholder<br>placeholder<br>placeholder</p>
 <h3 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h3><p>&emsp;<a href="https://engineering.usask.ca/people/mech/Wu,Fang-Xiang.php">Professor Fang X. Wu</a></p>
 
@@ -189,7 +203,12 @@
 
 <script src="/js/darkmode.js"></script>
 
-<script type="text/javascript" src="/js/search.js"></script>
+
+<script src="/js/search.js"></script>
+
+
+<script src="/js/local.search.js"></script>
+
 
 
 <script src="/js/script.js"></script>

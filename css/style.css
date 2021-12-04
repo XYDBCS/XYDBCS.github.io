@@ -707,20 +707,9 @@ body {
     right: -100%;
   }
 }
-.search-form-submit {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  margin-top: -7px;
-  font: 13px FontAwesome;
-  border: none;
-  background: none;
-  color: #bbb;
-  cursor: pointer;
-}
-.search-form-submit:hover,
-.search-form-submit:focus {
-  color: #777;
+#search-form-wrap .search-result {
+  line-height: 1;
+  margin-top: 5px;
 }
 .site-nav {
   background: none repeat scroll 0 0 #555;
